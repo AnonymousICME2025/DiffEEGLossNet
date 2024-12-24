@@ -1,0 +1,10 @@
+{
+    "DATA": "VEPESS",
+    "N_SUBJECTS": 18,
+    "EPOCHS": 100,
+    "LEARNING_RATE": 0.001,
+    "TRAIN_BATCH_SIZE": 64,
+    "EVAL_BATCH_SIZE": 64,
+    "CLASS_CONDITIONING": true,
+    "SUBJECT_CONDITIONING": true
+}

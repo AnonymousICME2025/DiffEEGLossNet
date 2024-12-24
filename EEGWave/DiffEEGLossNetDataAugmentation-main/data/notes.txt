@@ -1,0 +1,17 @@
+Dataset Description
+BCI Competition IV Dataset 2a (BCIC4D2a)
+The BCIC4D2a dataset consists of EEG signals recorded from 9 participants during motor imagery tasks. Participants were instructed to imagine the movements of their left hand, right hand, both feet, and tongue after an instructional cue appeared on the screen.
+
+Recording Details:
+EEG signals were recorded from 22 channels based on the international 10-20 system. In addition, 3 EOG channels were included to detect ocular artifacts. The signals were sampled at 250 Hz and pre-processed using a band-pass filter with a range of 0.5 - 100 Hz. To further reduce interference, a notch filter at 50 Hz was applied to suppress line noise.
+Preprocessing:
+For this work, we band-pass filtered the EEG signals between 4 and 38 Hz using a zero-phase filter. The data were down-sampled to 128 Hz. Epochs were extracted within the time window of [0.5, 4] seconds after the onset of the cue. The signals were normalized by subtracting the channel-wise mean and dividing by the standard deviation to constrain the values within the range [-1, 1]. Any trials marked as artifacts by the dataset publishers were excluded from the analysis.
+BCI Competition IV Dataset 2b (BCIC4D2b)
+The BCIC4D2b dataset provides EEG data from 9 participants performing binary motor imagery tasks. In this task, participants were required to imagine the movements of their left or right hand based on visual instructions.
+
+Recording Details:
+EEG signals were recorded using three bipolar channels (C3, Cz, and C4) in accordance with the international 10-20 system. The data were sampled at 250 Hz, and signals were band-pass filtered within the range of 0.5 - 100 Hz. Additionally, a 50 Hz notch filter was applied to suppress line noise artifacts.
+Preprocessing:
+For consistency, we applied a band-pass filter between 4 and 38 Hz using a zero-phase filter and down-sampled the signals to 128 Hz. Epochs corresponding to the time window [0.5, 2.5] seconds after the onset of the cue were extracted. The extracted epochs were normalized via channel-wise mean subtraction and standard deviation division to ensure the data values lie within the range [-1, 1]. Predefined artifact trials identified by the dataset publishers were excluded from the study.
+
+
