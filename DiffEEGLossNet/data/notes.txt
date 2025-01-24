@@ -1,0 +1,27 @@
+# Explanation from paper
+
+BCI Competition IV Dataset IIa : the set contains motor imagery signals from
+9 participants. The subjects were asked to imagine the movement of their left and right hand, also
+their feet and tongue, for a couple of seconds after the instruction cue were presented on their screen.
+Data was recorded from 22 EEG and 3 EOG channels following the 10-20 standard system. The
+measurements were sampled at 250 Hz and band-pass filtered from 0.5 - 100 Hz. Furthermore, a
+notch filter at 50 Hz was applied to eliminate the line noise. We further band-pass filtered the signals
+between 4 - 38 Hz with a zero-phase filter and down-sampled them to 128 Hz. Following the work
+of , we extracted epochs from the recordings between [0.5, 4] seconds from the onset of the cue and
+normalized them by channel-wise mean subtraction and deviation division. We excluded samples
+marked as rejected due to artifacts by the publishers of the set.
+
+
+BCI Competition IV Dataset IIb : This dataset contains motor imagery signals from 
+9 participants. During the experiment, the subjects were instructed to imagine the movement 
+of their left or right hand for several seconds after the cue was displayed on the screen. 
+The data were recorded using 3 EEG channels, following the 10-20 international electrode 
+placement system. The recordings were sampled at 250 Hz and initially band-pass filtered 
+between 0.5 and 100 Hz. A notch filter at 50 Hz was also applied to eliminate power line noise. 
+Additionally, the signals were further band-pass filtered between 4 and 38 Hz using a zero-phase 
+filter and down-sampled to 128 Hz. Following related works, we extracted epochs from the recordings 
+in the range of [0.5, 4] seconds after the cue onset and normalized them by channel-wise mean 
+subtraction and standard deviation division. Samples marked as rejected due to artifacts by the 
+dataset publishers were excluded.
+
+

@@ -1,0 +1,11 @@
+{
+    "DATA": "BCICIV",  
+    "N_SUBJECTS": 9,  
+    "TEACHER": "6768_160",  
+    "EPOCHS": 20,  
+    "TRAIN_BATCH_SIZE": 32,  
+    "EVAL_BATCH_SIZE": 32,  
+    "LEARNING_RATE": 0.001,  
+    "CLASS_CONDITIONING": true,  
+    "SUBJECT_CONDITIONING": true  
+}

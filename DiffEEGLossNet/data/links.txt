@@ -1,0 +1,8 @@
+
+BCI Competition IV Dataset IIa 
+	http://bbci.de/competition/download/competition_iv/BCICIV_2a_gdf.zip
+	https://sourceforge.net/projects/biosig/
+
+BCI Competition IV Dataset IIb
+	https://bbci.de/competition/download/competition_iv/BCICIV_2b_gdf.zip
+

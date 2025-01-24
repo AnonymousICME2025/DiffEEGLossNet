@@ -1,0 +1,14 @@
+{
+    "DATA": "bciciv",
+    "GEN_RUN": "s",
+    "N_SUBJECTS": 9,
+    "LEARNING_RATE": 0.001,
+    "EPOCHS": 1000,
+    "WEIGHT_DECAY": 0.0005,
+    "TRAIN_BATCH_SIZE": 32,
+    "EVAL_BATCH_SIZE": 32,
+    "SETTING": "DEFAULT"
+}
+
+
+

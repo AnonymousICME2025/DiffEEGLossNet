@@ -1,0 +1,7 @@
+{
+    "CHECKPOINT": "./eegnet/checkpoints_1/eegnet_1701_1200_0000001_SOTA_x.pch",
+    "DATA": "bciciv",
+    "GEN_RUN": "diffusion_6768_160_c_s_1",
+    "N_SUBJECTS": 9,
+    "BATCH_SIZE": 32
+}
